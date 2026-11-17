@@ -1,0 +1,18 @@
+# Dépendances & dossiers de build
+node_modules
+dist
+dist-ssr
+.vite
+*.local
+*.zip
+
+# Secrets & variables d'environnement (NE JAMAIS VERSIONNER .env)
+.env
+.env.*
+!.env.example
+
+# Fichiers système & journaux
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
